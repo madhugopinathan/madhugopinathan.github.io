@@ -1,9 +1,17 @@
----
-layout: default
----
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+{% include header.html %}
 
-<div class="post">
- {{ content }}
-</div>
+<div class="container">
+
+  <div class="main-template">
+    
+    <h1>{{page.title}}</h1>
+    {{ content }}
+
+    <!-- After content -->
+    <hr>
+    {% include post_social_media.html %}
+  </div>
+
+</div><!-- /.container -->
+
+{% include footer.html %}
