@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """
 CREDIT: https://github.com/peterroelants/peterroelants.github.io/blob/master/notebooks/notebook_convert.py
 
